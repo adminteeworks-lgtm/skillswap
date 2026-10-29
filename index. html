@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWAAZ.FSD - Faisalabad</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="logo">📢 AWAAZ.FSD</div>
+<nav>
+<a href="index.html" class="active">Report</a>
+<a href="issues.html">Issues</a>
+<a href="dashboard.html">Admin</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Faisalabad Ka Masla Report Karo 🏙️</h1>
+<p style="margin:8px 0 16px;color:#666">Kachra, Gutter, Road, Street Light ka masla</p>
+
+<div class="card">
+<form id="issueForm">
+<label>Masla Kis Type Ka Hai?</label>
+<select id="issueType" required>
+<option value="">Select karo</option>
+<option>Garbage / Kachra</option>
+<option>Sewage / Gutter</option>
+<option>Road Damage</option>
+<option>Street Light</option>
+<option>Water Issue</option>
+<option>Other</option>
+</select>
+
+<label>Location <button type="button" onclick="getLocation()" style="font-size:12px;padding:4px 8px">📍 Get Location</button></label>
+<input type="text" id="location" placeholder="e.g. Peoples Colony, D-Ground" required>
+
+<label>Detail Likho</label>
+<textarea id="description" placeholder="Masla kya hai, kab se hai?" required></textarea>
+
+<label>Photo Upload (Saboot)</label>
+<input type="file" id="photo" accept="image/*" onchange="previewPhoto()">
+<img id="preview" style="display:none;width:100%;margin-top:10px;border-radius:10px;max-height:300px;object-fit:cover">
+
+<button type="submit" class="submit-btn">🚀 Report Submit Karo</button>
+<p id="msg"></p>
+</form>
+</div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
