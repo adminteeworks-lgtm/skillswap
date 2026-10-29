@@ -1,12 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
-body{background:#f7f8fc;color:#222}
-nav{display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.1);position:sticky;top:0;z-index:10}
-.logo{font-weight:800;font-size:22px}.logo span{color:#6c5ce7}
-.nav-links a{margin-left:18px;text-decoration:none;color:#333;font-weight:600}
-.hero{padding:70px 6%;text-align:center;background:linear-gradient(135deg,#6c5ce7,#a29bfe);color:#fff}
-.hero h1{font-size:38px;margin-bottom:10px}.hero h1 span{color:#ffeaa7}
-.btn{padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-block;margin:6px}
-.btn.primary{background:#fff;color:#6c5ce7}.btn.outline{border:2px solid #fff;color:#fff}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;padding:20px 6%}
-.card,.skill-card,.form-card{background:#fff;padding:20px;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,.07)}
-footer{text-align:center;padding:20px;background:#fff;margin-top:30px}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:system-ui;background:#f5f7fb;color:#222}header{background:#111;color:#fff;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}header .logo{font-weight:800;font-size:18px}nav a{color:#ccc;margin-left:12px;text-decoration:none;font-size:14px}nav a.active{color:#fff;font-weight:700;background:#333;padding:6px 10px;border-radius:20px}.container{max-width:900px;margin:20px auto;padding:0 14px}.card{background:#fff;padding:16px;border-radius:14px;box-shadow:0 4px 12px rgba(0,0,0,.08);margin-bottom:14px}label{display:block;margin:12px 0 6px;font-weight:600}input,select,textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:10px;font-size:16px}textarea{min-height:90px}.submit-btn{margin-top:14px;width:100%;padding:14px;background:#111;color:#fff;border:none;border-radius:12px;font-weight:700;font-size:16px}.status{padding:4px 10px;border-radius:20px;font-size:12px;font-weight:700}.Pending{background:#fff3cd}.InProgress,.In{background:#cfe2ff}.Fixed{background:#d1e7dd}.filter-bar button{margin:6px;padding:8px 14px;border:1px solid #ddd;border-radius:20px;background:#fff}#msg{margin-top:10px;color:green;font-weight:700;text-align:center}
